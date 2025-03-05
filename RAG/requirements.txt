@@ -8,3 +8,6 @@ python-dotenv
 pdfplumber
 tabula-py
 tiktoken
+amazon-textract-caller
+amazon-textract-textractor
+amazon-textract-caller
