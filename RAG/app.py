@@ -12,12 +12,11 @@ import os
 
 # Load API Key from .env
 load_dotenv()
-openai_api_key = os.getenv("api_key")
+openai_api_key = os.getenv("api_key2")
 if not openai_api_key:
     st.error("Please provide a valid OpenAI API key in the .env file.")
     st.stop()
 
-openai.api_key = openai_api_key
 
 # Streamlit UI
 st.title("📚 Chat with Your Document via RAG")
