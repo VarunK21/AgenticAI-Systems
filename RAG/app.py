@@ -9,6 +9,9 @@ import openai
 import fitz  
 from dotenv import load_dotenv
 import os
+import pytesseract
+from pdf2image import convert_from_bytes,convert_from_path
+from io import BytesIO
 
 # Load API Key from .env
 load_dotenv()
@@ -21,6 +24,18 @@ if not openai_api_key:
 # Streamlit UI
 st.title("📚 Chat with Your Document via RAG")
 uploaded_file = st.file_uploader("Upload a PDF or TXT document", type=["pdf", "txt"])
+
+# Function to extract Text from scanned PDF
+def extract_text_from_scanned_pdf(uploaded_file):
+
+    if uploaded_file is not None:
+        images = convert_from_bytes(uploaded_file.getvalue())  # Convert PDF to images
+        extracted_text = "\n".join([pytesseract.image_to_string(img,lang="ara") for img in images])
+        return extracted_text.strip()
+
+    
+
+
 
 # Function to Extract Text from PDF
 def extract_text_from_pdf(pdf_file):
@@ -83,9 +98,14 @@ if uploaded_file:
     # 🗂️ Extract Text Based on File Type
     if uploaded_file.type == "application/pdf":
         document_text = extract_text_from_pdf(uploaded_file)
+        if(len(document_text)==0):
+            document_text = extract_text_from_scanned_pdf(uploaded_file)
+
     elif uploaded_file.type == "text/plain":
         document_text = extract_text_from_txt(uploaded_file)
-
+        if(len(document_text)==0):
+            document_text = extract_text_from_scanned_pdf(uploaded_file)
+            
     # Create FAISS Index and Store in Session
     if st.session_state.vector_store is None:
         with st.spinner("Processing document..."):
