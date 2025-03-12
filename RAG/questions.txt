@@ -1,4 +1,41 @@
+SOP Docs
 
 What is Material Discrepancy Process Flow Chart? Explain the steps in detail ? - page 144
 What is EOQ ? And what is its formula ? - page 132,133
 Who prepares the documentatioon to transfer rotable items from one bin to another under the Transfer of Rotable items with in COMM site? - page 117
+
+Arabic Docs
+
+Q1: What is the document about ?
+
+A1: The document appears to be a legal defense memorandum submitted by the Kuwaiti Gulf Oil Company (الشركة الكويتية لنفط الخليج) as the defendant in a labor-related case. The case involves a dispute with the plaintiff, Mr. Salem Abdullah Mohammed Salem Al-Bisher (سالم عبدالله محمد سالم البشر), and is being reviewed under labor law regulations. The document references the relationship between the plaintiff and the defendant, governed by Kuwait's labor law in the private sector, and discusses the legal framework for terminating the employment relationship. It is part of proceedings in case number 0/1410, scheduled for a hearing on 15/11/1991.
+
+Q2: What are the different facts stated in the document ?
+
+A2: The document outlines the following facts:
+
+Parties Involved:
+
+The plaintiff is Mr. Salem Abdullah Mohammed Salem Al-Bisher.
+The defendant is the Kuwait Gulf Oil Company.
+Case Details:
+
+The case number is 0/1410, categorized under labor disputes.
+The case is being reviewed in a session scheduled for 15/11/1991.
+Legal Proceedings:
+
+The case is being presented before an expert panel, specifically Expert A / Fahd Al-Hadiyah.
+The defense refers to the initial lawsuit and the submitted memorandums to avoid repetition.
+Defense Argument:
+
+The defense argues that an acknowledgment (or agreement) signed by the plaintiff is binding unless proven otherwise (e.g., under duress or coercion).
+The plaintiff signed a settlement dated 17/5/1990, which aligns with the early retirement date of 7/4/1990. This indicates no delay or failure in disbursing the plaintiff's entitlements.
+Burden of Proof:
+
+The defense emphasizes that it is the plaintiff's responsibility to provide evidence for their claims.
+The documents presented lack evidence to support the plaintiff's allegations.
+These are the main facts and arguments presented in the document.
+
+Q3: What is the final conclusion stated in the document ?
+
+A3: The final conclusion in the document is that the claimant (the employee) had previously signed a final settlement and acknowledgment, confirming that they had received their end-of-service benefits and all outstanding financial entitlements from the employer. The document emphasizes that the claimant is responsible for proving their legal claims, and in the absence of evidence to support their case, the claim is dismissed.
