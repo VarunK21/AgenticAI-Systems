@@ -13,3 +13,4 @@ amazon-textract-textractor
 amazon-textract-caller
 pdf2image
 pytesseract
+mistralai

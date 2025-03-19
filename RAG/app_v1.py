@@ -111,6 +111,8 @@ if uploaded_file:
     elif uploaded_file.type == "text/plain":
         pages = extract_text_from_txt(uploaded_file)
 
+    st.write(pages)
+    st.write(len(pages))
     # Create FAISS Index and Store in Session
     if st.session_state.vector_store is None:
         with st.spinner("Processing document..."):
